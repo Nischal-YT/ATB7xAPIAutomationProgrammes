@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e973b41-6deb-44bb-800b-2ac00663b7d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetesting/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/Test001.java" afterDir="false" />
+    <list default="true" id="9e973b41-6deb-44bb-800b-2ac00663b7d2" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/BuilderPatternDesignPatternJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/NoDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/Test003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/GET/BDDStyleGET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/GET/NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/POST/BDDStylePOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/POST/NonBDDStylePOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/PUT/NonBDDPUTStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/testng/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/testng/Test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/ex_15092024/CRUD/testng/Test003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_POST.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_put.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetesting/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetesting/Test002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nischal-YT&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nischal-YT/ATB7xAPIAutomationProgrammes.git&quot;,
+    &quot;accountId&quot;: &quot;21e87a08-69b4-4fc4-b5ce-021eeb4466aa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2m64SsuhHQXOhMI5R4LAQ6Ye34z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,22 +60,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BDDStyleGET.executor": "Run",
+    "Application.BDDStylePOST.executor": "Run",
+    "Application.NonBDDStyle.executor": "Run",
+    "Application.NonBDDStylePOST.executor": "Run",
     "Application.Test001.executor": "Run",
+    "Application.Test002.executor": "Run",
     "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_POST.xml.executor": "Run",
+    "TestNG.C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_put.xml.executor": "Run",
+    "TestNG.Test002.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test001">
-    <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetesting.Test001" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\naavi\IdeaProjects\ATB7xAPIAutomationProgrammes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetesting.ex_15092024.CRUD.POST" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_POST.xml">
+    <configuration name="BDDStylePOST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetesting.ex_15092024.CRUD.POST.BDDStylePOST" />
       <module name="ATB7xAPIAutomationProgrammes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetesting.*" />
+          <option name="PATTERN" value="com.thetesting.ex_15092024.CRUD.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,25 +101,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NonBDDStylePOST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetesting.ex_15092024.CRUD.POST.NonBDDStylePOST" />
       <module name="ATB7xAPIAutomationProgrammes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetesting.*" />
+          <option name="PATTERN" value="com.thetesting.ex_15092024.CRUD.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetesting" />
-      <option name="MAIN_CLASS_NAME" value="com.thetesting.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_POST.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationProgrammes" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_POST.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_put.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationProgrammes" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_put.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationProgrammes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetesting.ex_15092024.CRUD.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetesting.ex_15092024.CRUD.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.thetesting.ex_15092024.CRUD.testng.Test002" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test001" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="TestNG.C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_POST.xml" />
+        <item itemvalue="TestNG.C:/Users/naavi/IdeaProjects/ATB7xAPIAutomationProgrammes/testng_put.xml" />
+        <item itemvalue="TestNG.Test002" />
+        <item itemvalue="Application.NonBDDStylePOST" />
+        <item itemvalue="Application.BDDStylePOST" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +170,28 @@
       <option name="presentableId" value="Default" />
       <updated>1726383699015</updated>
     </task>
+    <task id="LOCAL-00001" summary="Restassured start">
+      <option name="closed" value="true" />
+      <created>1726385442883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726385442883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1726385865554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726385865554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restassured start" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
